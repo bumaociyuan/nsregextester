@@ -22,6 +22,7 @@
 		93D1BC171694F01E00F6EB79 /* SIL Open Font License 1.1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93D1BC101694F01E00F6EB79 /* SIL Open Font License 1.1.txt */; };
 		93D1BC181694F01E00F6EB79 /* stylesheet.css in Resources */ = {isa = PBXBuildFile; fileRef = 93D1BC111694F01E00F6EB79 /* stylesheet.css */; };
 		93D1BC1F1695273700F6EB79 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D1BC1E1695273700F6EB79 /* WebKit.framework */; };
+		FBCED7011FF3A1000065837E /* regex_ref.htm in Resources */ = {isa = PBXBuildFile; fileRef = FBCED7001FF3A0FF0065837E /* regex_ref.htm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		93D1BC101694F01E00F6EB79 /* SIL Open Font License 1.1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License 1.1.txt"; sourceTree = "<group>"; };
 		93D1BC111694F01E00F6EB79 /* stylesheet.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = stylesheet.css; sourceTree = "<group>"; };
 		93D1BC1E1695273700F6EB79 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FBCED7001FF3A0FF0065837E /* regex_ref.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = regex_ref.htm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		93D1BC0A1694F01E00F6EB79 /* regex_ref */ = {
 			isa = PBXGroup;
 			children = (
+				FBCED7001FF3A0FF0065837E /* regex_ref.htm */,
 				93D1BC0B1694F01E00F6EB79 /* Inconsolata-webfont.eot */,
 				93D1BC0C1694F01E00F6EB79 /* Inconsolata-webfont.svg */,
 				93D1BC0D1694F01E00F6EB79 /* Inconsolata-webfont.ttf */,
@@ -201,6 +204,7 @@
 				93D1BC161694F01E00F6EB79 /* regex_ref.html in Resources */,
 				93D1BC171694F01E00F6EB79 /* SIL Open Font License 1.1.txt in Resources */,
 				93D1BC181694F01E00F6EB79 /* stylesheet.css in Resources */,
+				FBCED7011FF3A1000065837E /* regex_ref.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

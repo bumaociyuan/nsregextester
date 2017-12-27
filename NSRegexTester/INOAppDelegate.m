@@ -19,7 +19,7 @@
     [self.regexField setFont:defaultFont];
     [self.regexField setDelegate:self];
     [self.regexField becomeFirstResponder];
-    NSURLRequest * localRequest = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"regex_ref" ofType:@"html"]]];
+    NSURLRequest * localRequest = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"regex_ref" ofType:@"htm"]]];
     [[self.referenceView mainFrame] loadRequest:localRequest];
     
     defaultFont = nil;
